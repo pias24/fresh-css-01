@@ -1,0 +1,441 @@
+/* ======================font starts=======================
+==========================================================
+========================================================== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300..900&family=Podkova:wght@400..800&display=swap');
+/* ;;;;;;;;;;;;;;;;;;;;;;;font end;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;*/
+
+
+
+/* ======================common css=======================
+==========================================================
+========================================================== */
+*{margin:0px;
+  padding: 0px;
+  outline: 0px;
+  box-sizing: border-box;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+.container{
+    width: 1298px;
+    margin: 0 auto;
+}
+/* ;;;;;;;;;;;;;;;;;;;;;;;common css end;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;*/
+
+
+
+/* ======================menu=======================
+==========================================================
+========================================================== */
+#main_menu_header{
+    width:100%;
+    padding-top: 52px;
+    padding-bottom: 112px;
+    background: #FFFFFF;
+}
+
+.menu_row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu_row .menu_logo img{
+    width: 133px;
+}
+.menu_col ul{
+    display: flex;
+    gap: 59px;
+}
+.menu_col ul li a{
+    font-size: 24px;
+    font-weight: 600;
+    font-family:"Poppins", sans-serif;
+    color:#000;
+}
+.menu_col ul li a:hover{
+    color:#FDBB57;
+    transition: all linear 0.3s;
+}
+.menu_button{
+    display: flex;
+    gap:10px;
+}
+.menu_button a{
+width: 127px;
+height: 57px;
+border:1px solid #FDBB57;
+border-radius: 10px;text-align: center;
+line-height: 57px;
+font-size: 24px;
+font-weight: 600;
+font-family:"Poppins", sans-serif;
+color:#000;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+/* ;;;;;;;;;;;;;;;;;;;;;;;menu end;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;*/
+
+
+
+/* ======================banner start=======================
+==========================================================
+========================================================== */
+#banner_bg{
+    padding-bottom: 100px;
+    background:#FFFFFF;
+}
+.container .banner_row{
+    display: flex;
+    justify-content:space-between;
+}
+.container .banner_row .text_part>h1{
+     width: 449px;
+     font-family:"Poppins", sans-serif;
+     font-weight: 600;
+     font-size: 64px;
+     
+}
+.container .banner_row .text_part>p{
+    width: 531px;
+    font-family:"Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    margin-bottom: 76px;
+    margin-top: 38px;
+    
+}
+
+.text_part .text_button a{
+    width: 319px;
+    height: 86px;
+    background: #000000;
+    font-family:"Poppins", sans-serif;
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 600;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 86px;
+
+}
+.text_part .text_button a:active{
+    transform: scale(1.1);
+}
+/* ;;;;;;;;;;;;;;;;;;;;;;;banner end;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;*/
+
+marquee{font-size:50PX;
+color: green;
+font-weight: bold;}
+
+
+/* ======================collection start=======================
+==========================================================
+========================================================== */
+#main_collection{
+    padding-bottom: 93px;
+    background: #FFFFFF;
+}
+.row_collection .text_part1 h2{
+    text-align: center;
+    font-size: 64px;
+    font-weight: bold;
+}
+.row_collection .text_part1 p{
+    font-size: 24px;
+    font-family:"Poppins", sans-serif;
+    text-align: center;
+    font-weight: normal;
+    padding-bottom: 40px;
+}
+/* |||||||||||||||||||||||||||||||||||||||| */
+.row_collection .pias{
+    display: flex;
+    justify-content: space-between;
+    gap:98px;
+}
+.row_collection .pias .collection{
+    width: 349px;
+    height: 402px;
+    background: url(../images/collection_1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+.row_collection .pias .collection2{
+    width: 349px;
+    height: 402px;
+    background: url(../images/collection_2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+.row_collection .pias .collection3{
+    width: 349px;
+    height: 402px;
+    background: url(../images/collection_2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+.row_collection .pias .collection a{
+   padding: 9px 104px 13px 112px; 
+   background: #FFFFFF;
+   border-radius: 10px;
+   position: absolute;
+   font-size: 24px;
+   font-family:"Poppins", sans-serif;
+   font-style: 400;
+   left:200px;
+   transform: translatex(-50%);
+   bottom: 44px;
+   color: #000;
+   transition: all linear 0.3s;
+}
+.row_collection .pias .collection:hover a{
+   left: 50%;
+}
+.row_collection .pias .collection a:hover{
+    color: #FDBB57;
+    background-color:black;
+    font-size: 30px;
+}
+/* ||||||||||||||||||||||||||||||||||||||| */
+
+.row_collection .pias .collection2 a{
+    padding: 9px 104px 13px 112px; 
+    background: #FFFFFF;
+    border-radius: 10px;
+    position: absolute;
+    font-size: 24px;
+    font-family:"Poppins", sans-serif;
+    font-style: 400;
+    left:200px;
+    transform: translatex(-50%);
+    bottom: 44px;
+    color: #000;
+    transition: all linear 0.3s;
+ }
+ .row_collection .pias .collection2:hover a{
+    left: 50%;
+ }
+ .row_collection .pias .collection2 a:hover{
+    color: #FDBB57;
+    background-color:black;
+    font-size: 30px;
+}
+/* |||||||||||||||||||||||||||||||||||||||||||| */
+
+ .row_collection .pias .collection3 a{
+    padding: 9px 104px 13px 112px; 
+    background: #FFFFFF;
+    border-radius: 10px;
+    position: absolute;
+    font-size: 24px;
+    font-family:"Poppins", sans-serif;
+    font-style: 400;
+    left:200px;
+    transform: translatex(-50%);
+    bottom: 44px;
+    color: #000;
+    transition: all linear 0.3s;
+ }
+ .row_collection .pias .collection3:hover a{
+    left: 50%;
+ }
+ .row_collection .pias .collection3 a:hover{
+    color: #FDBB57;
+    background-color:black;
+    font-size: 30px;
+}
+
+/* ;;;;;;;;;;;;;;;;;;;;;;;collection end;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;*/
+
+/* ======================Fashion start=======================
+==========================================================
+========================================================== */
+#fashion{
+    padding-top: 212px;
+    background-color: #FFFFFF;
+}
+.fashion_row .fashion_head h2{
+     font-size: 64px;
+     font-weight: 700;
+     font-family:"Frank Ruhl Libre", serif;
+     color: #000000;
+     width: 387px;
+}
+.fashion_row .fashion_head p{
+    font-size: 24px;
+    font-weight: 600;
+    font-family:"Poppins", sans-serif;
+    color: #000000;
+    width: 443px;
+    margin-top: 63px;
+    padding-bottom: 136px;
+
+}
+    /* |||||||||||||||||||||||||||||||||||||||||||| */
+.fashion_row{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    position: relative;
+    padding-bottom: 96px;
+}
+
+.fashion_counter{
+     width: 793px;
+     padding-top: 75px;
+     padding-bottom:70px;
+     background: #FEECC8;
+     border-radius: 20px;
+    }
+.fashion_counter .counter1{
+        padding-left: 29px;
+    }
+.fashion_counter .counter1 h3{
+     font-weight: 700;
+     font-family:"Podkova", serif;
+     font-size: 64px;
+     color: #000000;
+    }
+.fashion_counter{
+        display: flex;
+        gap:27px;
+    }
+.fashion_counter .counter1 h4{
+        font-weight:500;
+        font-family:"Poppins", sans-serif;
+        font-size: 28px;
+        color: #000000;
+        margin-top: 28px;
+       }
+.single_line1{
+        height: 143px;
+        width: 1px;
+        background-color: #000000;
+       }
+ .fashion_img img{
+    position: absolute;
+    top: -126px;
+    left: -17px;
+ }      
+/* ;;;;;;;;;;;;;;;;;;;;;;Fashion end;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;*/
+
+/*-- ==============footer start==========================
+========================================================
+======================================================== */
+#footer{
+    background: #CFA485;
+    padding-bottom: 204px;
+    width: 100%;
+}
+.main_footer{
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+.main_footer .footer_text{
+    padding-top: 23px;
+}
+.main_footer .footer_text h2{
+    font-size: 64px;
+    font-family:"Frank Ruhl Libre", serif;
+    font-weight: 700;
+    color: #FFFFFF;
+    width: 315px;
+    margin-bottom: 43px;
+    padding-top:23px ;
+}
+.main_footer .footer_text p{
+    width: 437px;
+    font-size: 24px;
+    font-family:"Frank Ruhl Libre", serif;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+
+
+.footer_text .button_more  a{
+    width: 319px;
+    height: 86px;
+    background: #000000;
+    font-family:"Poppins", sans-serif;
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 600;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 86px;
+}
+.footer_text .button_more a:active{
+    transform: scale(1.1);}
+ /* |||||||||||||||||||||||||||||||||||||||||||| */
+ .footer_cards{
+    padding-top: 56px;
+    display: flex;
+    gap:30px;
+ }
+ .single_footer_cards{
+    width: 366px;
+    background: #fff;
+    border-top-right-radius: 60px;
+    border-top-left-radius: 60px;
+ }
+ .footer_cards_text{
+    padding-left: 22px;
+    padding-bottom: 9px;
+ }
+ .footer_cards_text ul{
+    display: flex;
+    gap:8px;
+    margin-top: 14px;
+    margin-bottom: 11px;
+ }
+ .footer_cards_text ul li i{
+    color: #FFAF37;
+ }
+ .footer_cards_text h2{
+    font-size: 22px;
+    font-weight: 600;
+    font-family:"Poppins", sans-serif;
+    color: #000;
+ }
+ .footer_cards_text h4{
+    font-size: 24px;
+    font-weight: 400;
+    font-family:"Poppins", sans-serif;
+    color: #000;
+ }
+ .footer_cards_text h4 span{
+    color: #C4C4C4;
+    margin-right: 31px;
+ }
+/* ;;;;;;;;;;;;;;;;;;;;;;Footer end;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;*/
